@@ -15,7 +15,7 @@ public class CrawlerFirst {
         CloseableHttpClient httpClient = HttpClients.createDefault();
 
         //2、输入网址
-        HttpGet httpGet = new HttpGet("http://news.baidu.com");
+        HttpGet httpGet = new HttpGet("https://www.jd.com/?cu=true&utm_source=baidu-pinzhuan&utm_medium=cpc&utm_campaign=t_288551095_baidupinzhuan&utm_term=0f3d30c8dba7459bb52f2eb5eba8ac7d_0_856945b9968a4dc8bd79bb5af405a598");
         //3、按回车，发起请求
         CloseableHttpResponse response = httpClient.execute(httpGet);
         //4、解析相应，获取数据
